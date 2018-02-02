@@ -24,6 +24,7 @@ nav h4{
 .links li{
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
+    
 }
 
 .categorias h2{
@@ -39,4 +40,12 @@ nav h4{
 
 .num2{
     background-color: #CEF6CE;
+}
+li a{
+	color: white;
+}
+
+ul{
+	position:relative;
+    left:50%;
 }
