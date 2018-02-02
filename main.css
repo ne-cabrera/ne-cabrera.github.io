@@ -3,11 +3,6 @@
     margin-bottom: 0;
 }
 
-nav{
-    display: flex;
-    text-align: center;
-}
-
 nav h4{
     margin: auto;
     color: white;
@@ -43,4 +38,17 @@ nav h4{
 }
 li a{
 	color: white;
+}
+
+li a:hover{
+	color: black;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+	margin: 0 50px;
 }
