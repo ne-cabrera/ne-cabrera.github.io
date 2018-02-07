@@ -77,3 +77,14 @@ li{
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+
+
+.skills {
+    background-image: url(http://www.jorgehernandezramirez.com/wp-content/uploads/2017/08/Java_programming_language_logo.svg_.png);
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
