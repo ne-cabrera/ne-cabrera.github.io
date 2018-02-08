@@ -78,13 +78,27 @@ li{
       padding-top: 70px;
   }
 
-
-
-.skills {
-    background-image: url(http://www.jorgehernandezramirez.com/wp-content/uploads/2017/08/Java_programming_language_logo.svg_.png);
+.logos{
+    margin-top: 50px;
 }
 
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 150px;
+}
+
+.logoHC{
+    height: 183px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.logoSQL{
+    height: 200px;
+    width: 200px;
+}
+
+.estrellas{
+    margin-top: 20px;
 }
