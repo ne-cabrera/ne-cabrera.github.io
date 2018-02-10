@@ -21,6 +21,10 @@
     font-size: 30px;
 }
 
+.tituloCategorias{
+    padding-bottom: 50px;
+}
+
 div.contact {
     margin-bottom: 50px;
 }
@@ -137,4 +141,11 @@ li{
 
 .laImagen:hover{
     transform: translate(50px,0px);
+}
+
+.descripcion{
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #A4C4A4;
 }
