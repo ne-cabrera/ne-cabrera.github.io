@@ -1,15 +1,38 @@
 .jumbotron{
-    background-color: azure;
+    background: url(img/IMG_20171227_091508.jpg) 50% 35%;
     margin-bottom: 0;
+    background-size: 100% auto;
+    height: 350px;
 }
 
 .jumbotron h2{
     font-family: italic;
     font-size: 70px;
+    color: white;
 }
 
-.jumbotron h3{
+.jumbotron h5{
     font-family: helvetica;
+    color: white;
+}
+
+.letreros{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+div.contact {
+    margin-bottom: 50px;
+}
+
+section#contact a{
+    color: inherit;
+}
+
+p.pAbout{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 nav h4{
@@ -90,7 +113,7 @@ li{
 .logoHC{
     height: 183px;
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 
@@ -101,4 +124,18 @@ li{
 
 .estrellas{
     margin-top: 20px;
+}
+
+.logoHabitaciones{
+    width: 250px;
+    height: 250px;
+}
+
+.laImagen{
+    transition: width 2s, height 2s;
+}
+
+.laImagen:hover{
+    width: 300px;
+    height: 300px;
 }

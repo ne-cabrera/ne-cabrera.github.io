@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/321011-200.png" />
     </head>
     <body>
         <div class="jumbotron">
@@ -19,13 +21,7 @@
                 </div>
             </div>
         </div>
-        <section class="links"  id="lista" data-spy="affix" data-offset-top="210">
-            <!--<nav class="container">
-<h4>About</h4>
-<h4>Projects</h4>
-<h4>Skills</h4>
-<h4>Contact</h4>
-</nav>-->
+        <section class="links"  id="lista" data-spy="affix" data-offset-top="350">
             <ul class="nav nav-pills center-pills prueba">
                 <li role="presentation"><a href="#about">About</a></li>
                 <li role="presentation"><a href="#projects">Projects</a></li>
@@ -38,7 +34,12 @@
                 <div class="container">
                     <div class="row text-center">
                         <h2><u>About</u></h2>
-                        <p> Aca va algo interesante creo</p>
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <p class="pAbout">
+                                I am a studying Systems and Computing Engineering at <a href="https://uniandes.edu.co/es">Universidad de los Andes</a>.
+                                I am interested in software development and cybersecurity.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -46,7 +47,47 @@
                 <div class="container">
                     <div class="row text-center">
                         <h2><u>Projects</u></h2>
-                        <p> Mis proyectos</p>
+                        <div class="container">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <h4 class="letreros">Colmines</h4>
+                                </div>
+                                <div class="row imgProyectos">
+                                    <img src="img/imgMinas.ico" alt="colmines">
+                                </div>
+                                <div class="row descripcion">
+                                    <p class="pAbout">IoT application to help miners by monitoring environmental variables and activating alerts and control systems if necessary.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <h4 class="letreros">Habitaciones</h4>
+                                </div>
+                                <div class="row imgProyectos">
+                                    <img class="logoHabitaciones" src="https://financialtribune.com/sites/default/files/field/image/17january/12_shelter.png" alt="habitaciones">
+                                </div>
+                                <div class="row descripcion">
+                                    <p class="pAbout">
+                                    Web based application that helps people to find lodging in particular houses owned by
+                                    hosts.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <h4 class="letreros">FestivAndes</h4>
+                                </div>
+                                <div class="row imgProyectos">
+                                    <img class="logoHabitaciones" src="https://cdn2.iconfinder.com/data/icons/ballicons-2-free/100/theatre-512.png" alt="habitaciones">
+                                </div>
+                                <div class="row descripcion">
+                                    <p class="pAbout">
+                                    Transactional system to organize theatre festivals in different cities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -56,7 +97,12 @@
                         <h2><u>Skills</u></h2>
                         <div class="container logos">
                             <div class="col-md-3">
-                                <img class="logo" src="https://vignette.wikia.nocookie.net/egamia/images/6/63/Java_avatar.png/revision/latest?cb=20081111001200" alt="logo de java"/>
+                                <div class="row">
+                                    <h4 class="letreros">Java</h4>
+                                </div>
+                                <div class="row">
+                                    <img class="logo" src="https://vignette.wikia.nocookie.net/egamia/images/6/63/Java_avatar.png/revision/latest?cb=20081111001200" alt="logo de java"/>
+                                </div>
                                 <div class="row estrellas">
                                     <i class="fas fa-star fa-2x"></i>
                                     <i class="fas fa-star fa-2x"></i>
@@ -74,6 +120,9 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
+                                <div class="row">
+                                    <h4 class="letreros">Python</h4>
+                                </div>
                                 <img  src="https://www.python.org/static/opengraph-icon-200x200.png" alt="logo de python"/>
                                 <div class="row estrellas">
                                     <i class="fas fa-star fa-2x"></i>
@@ -82,6 +131,9 @@
                                 </div>
                             </div>
                             <div class="col-md-3">
+                                <div class="row">
+                                    <h4 class="letreros">SQL</h4>
+                                </div>
                                 <img class="logoSQL" src="https://msdnshared.blob.core.windows.net/media/2016/11/Azure-SQL-Database.png" alt="logo de SQL">
                                 <div class="row estrellas">
                                     <i class="fas fa-star fa-2x"></i>
@@ -96,99 +148,28 @@
             </section>
             <section id="contact" class="categorias num2">
                 <div class="container">
-                    <div class="row text-center">
+                    <div class="row text-center contact">
                         <h2><u>Contact</u></h2>
+                    </div>
+                    <div class="row text-center">
                         <div class="col-md-3">
-                            <i class="fas fa-envelope fa-8x"></i>
+                            <i class="fas fa-envelope fa-7x"></i>
                         </div>
                         <div class="col-md-3">
-                            <i class="fab fa-facebook fa-8x"></i>
+                            <a href="https://www.facebook.com/nicolas.cabrera.16940" target="_blank">
+                                <i class="fab fa-facebook fa-7x"></i>
+                            </a>
                         </div>
                         <div class="col-md-3">
-                            <i class="fab fa-twitter-square fa-8x"></i>
+                            <a href="https://twitter.com/NicolasCabrer?lang=es" target="_blank">
+                                <i class="fab fa-twitter-square fa-7x"></i>
+                            </a>
                         </div>
                         <div class="col-md-3">
-                            <i class="fab fa-github-square fa-8x"></i>
+                            <a href="https://github.com/ne-cabrera" target="_blank">
+                                <i class="fab fa-github-square fa-7x"></i>
+                            </a>
                         </div>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-                        <p> Llamame</p>
-
                     </div>
                 </div>
             </section>
