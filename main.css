@@ -132,10 +132,9 @@ li{
 }
 
 .laImagen{
-    transition: width 2s, height 2s;
+    transition: transform 2s;
 }
 
 .laImagen:hover{
-    width: 300px;
-    height: 300px;
+    transform: translate(50px,0px);
 }
