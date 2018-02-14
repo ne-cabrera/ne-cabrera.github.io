@@ -1,3 +1,5 @@
+/* global $ */
+"use strict";
 var offset = 50;
 $('.nav-pills li a').click(function(event) {
     event.preventDefault();
