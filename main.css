@@ -137,6 +137,7 @@ li{
 
 .laImagen{
     transition: transform 2s;
+    cursor: pointer;
 }
 
 .laImagen:hover{
@@ -144,7 +145,7 @@ li{
 }
 
 .descripcion{
-    width: 350px;
+    margin: 5px;
     padding: 25px;
     border-radius: 10px;
     background-color: #A4C4A4;
