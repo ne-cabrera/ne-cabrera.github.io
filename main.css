@@ -1,3 +1,6 @@
+/* bibiana gamba: puedes utilizar un media query para que esta imagen sea responsive 
+y que no se vea repetida cuando el explorador se vuelve más pequeño o cuando se ve la versión móvil */
+
 .jumbotron{
     background: url(img/IMG_20171227_091508.jpg) 50% 35%;
     margin-bottom: 0;
@@ -39,6 +42,7 @@ p.pAbout{
     font-family: 'PT Sans', sans-serif;
 }
 
+/* bibiana gamba: este nav no se ve muy bien en la versión móvil queda de tamaño grande (largo)  */
 nav h4{
     margin: auto;
     color: white;
